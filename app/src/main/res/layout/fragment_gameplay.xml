@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/game_score_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/game_player_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#ffe86600"
+            android:text="Дима-Таня"/>
+
+        <TextView
+            android:id="@+id/game_player_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#ffe86600"
+            android:text="0"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/game_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game_score_container"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#ffe86600"
+        android:gravity="center_horizontal"
+        android:text="00:00:00"/>
+
+    <RelativeLayout
+        android:id="@+id/game_hat_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game_timer"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_above="@+id/game_word_container">
+
+        <ImageView
+            android:id="@+id/game_hat"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:scaleType="centerCrop"
+            android:layout_centerInParent="true"
+            android:src="@drawable/hat"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/game_word_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/word_background">
+
+        <TextView
+            android:id="@+id/game_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center_horizontal"
+            android:text="СИНХРОФАЗОТРОН"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

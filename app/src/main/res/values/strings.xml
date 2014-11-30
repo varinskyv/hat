@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Шляпа</string>
+
+    //main strings
+    <string name="main_hi_score">ЛУЧШИЙ РЕЗУЛЬТАТ:</string>
+    <string name="main_hi_score_text">Дима-Таня = 27</string>
+    <string name="main_start_button">Начать игру</string>
+    <string name="main_add_words_button">Добавить слова</string>
+    <string name="main_no_hi_score">Результата нет</string>
+    <string name="title_activity_game">Шляпа</string>
+
+    //game strings
+    <string name="players_words_types">Сложность слов</string>
+    <string name="players_add">Имена игроков команды</string>
+
+    <string-array name="words_types">
+        <item>Простые слова</item>
+        <item>Сложные слова</item>
+        <item>С подвыподвертом</item>
+        <item>Вперемешку</item>
+    </string-array>
+
+    <string name="action_play">Play</string>
+
+
+</resources>
