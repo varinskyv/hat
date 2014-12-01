@@ -17,8 +17,8 @@ import java.util.ArrayList;
 
 import hat.viktorvarinsky.com.GameActivity;
 import hat.viktorvarinsky.com.R;
-import hat.viktorvarinsky.com.data.Player;
-import hat.viktorvarinsky.com.data.Players;
+import hat.viktorvarinsky.com.core.Player;
+import hat.viktorvarinsky.com.core.Players;
 import hat.viktorvarinsky.com.utils.Constants;
 import hat.viktorvarinsky.com.utils.WordsListGenerator;
 

@@ -6,8 +6,8 @@ import android.os.AsyncTask;
 import java.util.ArrayList;
 import java.util.Random;
 
-import hat.viktorvarinsky.com.data.Word;
-import hat.viktorvarinsky.com.data.Words;
+import hat.viktorvarinsky.com.core.Word;
+import hat.viktorvarinsky.com.core.Words;
 
 /**
  * Created by vit on 30.11.14.

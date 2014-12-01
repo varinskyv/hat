@@ -1,7 +1,6 @@
-package hat.viktorvarinsky.com.data;
+package hat.viktorvarinsky.com.core;
 
 import java.io.Serializable;
-import java.util.Objects;
 
 /**
  * Created by vit on 30.11.14.

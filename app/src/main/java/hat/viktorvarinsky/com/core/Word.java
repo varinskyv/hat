@@ -1,4 +1,4 @@
-package hat.viktorvarinsky.com.data;
+package hat.viktorvarinsky.com.core;
 
 public class Word {
 

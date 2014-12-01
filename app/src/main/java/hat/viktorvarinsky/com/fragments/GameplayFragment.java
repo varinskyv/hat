@@ -3,15 +3,11 @@ package hat.viktorvarinsky.com.fragments;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -19,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 import hat.viktorvarinsky.com.R;
-import hat.viktorvarinsky.com.data.Players;
+import hat.viktorvarinsky.com.core.Players;
 import hat.viktorvarinsky.com.utils.Constants;
 
 public class GameplayFragment extends Fragment implements View.OnClickListener {

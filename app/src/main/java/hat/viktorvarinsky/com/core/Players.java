@@ -1,4 +1,4 @@
-package hat.viktorvarinsky.com.data;
+package hat.viktorvarinsky.com.core;
 
 import java.io.Serializable;
 import java.util.ArrayList;
