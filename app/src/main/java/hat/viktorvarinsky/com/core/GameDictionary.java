@@ -38,7 +38,7 @@ public class Words implements Serializable {
         StringBuilder total = new StringBuilder();
 
         try {
-            InputStream inputStream = context.getAssets().open("words.txt");
+            InputStream inputStream = context.getAssets().open("words.json");
 
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, "UTF8"));
 
